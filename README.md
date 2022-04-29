@@ -19,7 +19,7 @@ UI采用拟物风格，使用CSS工具[Neumorphism.io](https://neumorphism.io/#e
 - 移动端适配
 - 列表动画
 
-# 持久化数据存储：
+### 持久化数据存储：
 使用vuex持久化存储插件vuex-persistedstate对数据进行本地的持久化存储，防止数据刷新丢失。
-# 列表动画：
+### 列表动画：
 vue3提供动画的封装，在v-for渲染列表的场景下，使用transition-group组件包裹元素，使得在添加和删除待办时实现过渡的动画效果，增加用户体验的舒适度。
